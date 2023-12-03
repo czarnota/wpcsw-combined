@@ -14,11 +14,6 @@ int main(void)
 #ifdef PICO_ON_DEVICE
 	stdio_init_all();
 #endif
-	while (1) {
-		printf("Hello world\n");
-		sleep_ms(1000);
-	}
-	return 0;
 
 	while (1) {
 		printf("1) movement\n");
